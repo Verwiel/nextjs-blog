@@ -1,6 +1,6 @@
 // pages/_error.js is only used in production. In development you’ll get an error with the call stack to know where the error originated from.
 
-function Error({ statusCode }) {
+function Error({ statusCode }: { statusCode: string }) {
   return (
     <p>
       {statusCode
